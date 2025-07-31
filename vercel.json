@@ -1,15 +1,6 @@
 {
   "version": 2,
   "name": "leaf-consulting-solutions",
-  "builds": [
-    {
-      "src": "package.json",
-      "use": "@vercel/static-build",
-      "config": {
-        "outputDirectory": "dist"
-      }
-    }
-  ],
   "routes": [
     {
       "src": "/(.*)",
